@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GenValidation.Service.Utilities.Interface
 {
-    public interface IEmailValidator
+    public interface IValidator
     {
-        bool IsValidEmail(string email);
+        bool IsValid(string source);
     }
 }

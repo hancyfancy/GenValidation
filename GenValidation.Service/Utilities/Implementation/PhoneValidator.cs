@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace GenValidation.Service.Utilities.Implementation
 {
-    public class PhoneValidator : IPhoneValidator
+    public class PhoneValidator : IValidator
     {
-        public bool IsValidPhone(string number)
+        public bool IsValid(string number)
         {
             try
             {

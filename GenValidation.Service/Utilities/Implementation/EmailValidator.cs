@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace GenValidation.Service.Utilities.Implementation
 {
-    public class EmailValidator : IEmailValidator
+    public class EmailValidator : IValidator
     {
-        public bool IsValidEmail(string email)
+        public bool IsValid(string email)
         {
             try
             {
